@@ -1,0 +1,28 @@
+# build output
+bin/
+obj/
+*.user
+.vs/
+.idea/
+.vscode/
+dist/
+src/MotorMod/Bundles/
+
+# Unity (the project's own .gitignore covers Library, Temp, Logs and the synced FBX and WAV copies)
+unity/MotorModUnity/Assets/Assemblies/
+
+# raw downloads, source recordings and pipeline intermediates stay local (CREDITS.md links every original)
+assets/new_models/
+assets/raw/
+assets/audio/source/
+assets/audio/demos/
+assets/audio/fatboy/
+assets/audio/score/
+assets/models/*/source.glb
+assets/models/*/renders/
+assets/models/*/unity/*.glb
+assets/models/*/unity/textures/
+
+# local tools
+.venv/
+.DS_Store

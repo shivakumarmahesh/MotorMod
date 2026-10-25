@@ -1,0 +1,10 @@
+{
+  "name": "MotorMod",
+  "version_number": "__VERSION__",
+  "website_url": "https://github.com/shivakumarmahesh/MotorMod",
+  "description": "Rideable motorcycles: the Hel Cycle and its blue and green twins, trails of fire, wheelies, riding on water, saddlebags, fuel and a shared sea soundtrack.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2351",
+    "ValheimModding-Jotunn-2.30.2"
+  ]
+}

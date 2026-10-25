@@ -1,0 +1,136 @@
+{
+  "fatboy": {
+    "idle_loop": {
+      "src": "fatboy startup+idle",
+      "start": 23.75,
+      "end": 33.34,
+      "seam": 0.858,
+      "seconds": 9.59,
+      "lufs_in": -19.5,
+      "lufs_out": -24.0,
+      "target": -24,
+      "note": ""
+    },
+    "cruise_high": {
+      "src": "fatboy 114 ride",
+      "start": 197.75,
+      "end": 208.42,
+      "seam": 0.088,
+      "seconds": 10.67,
+      "lufs_in": -18.1,
+      "lufs_out": -18.0,
+      "target": -18,
+      "note": ""
+    },
+    "cruise_fast": {
+      "src": "fatboy 114 ride",
+      "start": 181.0,
+      "end": 187.57,
+      "seam": 0.126,
+      "seconds": 6.57,
+      "lufs_in": -16.4,
+      "lufs_out": -16.9,
+      "target": -15,
+      "note": "peak-limited, 1.9 dB short of target"
+    },
+    "startup_short": {
+      "seconds": 4.3,
+      "lufs_in": -16.9,
+      "lufs_out": -22.0,
+      "target": -22,
+      "note": ""
+    },
+    "startup_full": {
+      "seconds": 22.55,
+      "lufs_in": -18.7,
+      "lufs_out": -22.0,
+      "target": -22,
+      "note": ""
+    },
+    "rev_blips": {
+      "seconds": 4.6,
+      "lufs_in": -17.4,
+      "lufs_out": -17.0,
+      "target": -17,
+      "note": ""
+    },
+    "accel": {
+      "seconds": 7.0,
+      "lufs_in": -16.4,
+      "lufs_out": -15.6,
+      "target": -15,
+      "note": "peak-limited, 0.6 dB short of target"
+    },
+    "shutoff": {
+      "seconds": 5.5,
+      "lufs_in": -36.0,
+      "lufs_out": -22.0,
+      "target": -22,
+      "note": ""
+    }
+  },
+  "hel": {
+    "idle_loop": {
+      "src": "shovel start+idle (cleaned)",
+      "start": 28.75,
+      "end": 35.63,
+      "seam": 0.595,
+      "seconds": 6.88,
+      "lufs_in": -13.2,
+      "lufs_out": -24.0,
+      "target": -24,
+      "note": ""
+    },
+    "startup_short": {
+      "seconds": 3.9,
+      "lufs_in": -15.8,
+      "lufs_out": -22.0,
+      "target": -22,
+      "note": ""
+    },
+    "startup_full": {
+      "seconds": 23.25,
+      "lufs_in": -14.6,
+      "lufs_out": -22.0,
+      "target": -22,
+      "note": ""
+    },
+    "rev_blips": {
+      "seconds": 5.75,
+      "lufs_in": -17.4,
+      "lufs_out": -17.0,
+      "target": -17,
+      "note": ""
+    },
+    "accel": {
+      "seconds": 8.75,
+      "lufs_in": -15.9,
+      "lufs_out": -15.9,
+      "target": -15,
+      "note": "peak-limited, 0.9 dB short of target"
+    },
+    "cruise_high": {
+      "seconds": 13.34,
+      "lufs_in": -18.3,
+      "lufs_out": -18.0,
+      "target": -18,
+      "note": ""
+    },
+    "cruise_fast": {
+      "seconds": 8.21,
+      "lufs_in": -17.2,
+      "lufs_out": -17.2,
+      "target": -15,
+      "note": "peak-limited, 2.2 dB short of target"
+    },
+    "shutoff": {
+      "seconds": 6.88,
+      "lufs_in": -22.6,
+      "lufs_out": -22.0,
+      "target": -22,
+      "note": ""
+    },
+    "speed": 0.8,
+    "era": "Shovelhead (own start file)"
+  }
+}

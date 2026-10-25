@@ -1,0 +1,4 @@
+Body:metal,metal3,Seat,Bones,Chains
+WheelFront:Tire,TireStuff2,Spikes,TirePlate,metal2
+WheelRear:Tire,TireStuffidk,TirePlate,metal2
+Steer:Skull,Chains

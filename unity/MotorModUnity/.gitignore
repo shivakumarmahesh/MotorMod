@@ -1,0 +1,11 @@
+Library/
+Temp/
+Logs/
+obj/
+UserSettings/
+Assets/Bikes/*/*.fbx
+Assets/Bikes/*/*.fbx.meta
+Assets/Bikes/*/Audio/*.wav
+Assets/Bikes/*/Audio/*.wav.meta
+Assets/Props/*/*.fbx
+Assets/Props/*/*.fbx.meta

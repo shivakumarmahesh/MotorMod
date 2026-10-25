@@ -1,0 +1,151 @@
+{
+ "key": "hel",
+ "prefab_name": "HellCycle",
+ "size_m": [
+  1.134,
+  3.5,
+  1.439
+ ],
+ "scale": 1.4258,
+ "seat_unity": [
+  0.0,
+  0.831,
+  -0.581
+ ],
+ "grips_unity": [
+  [
+   -0.459,
+   1.261,
+   -0.283
+  ],
+  [
+   0.463,
+   1.261,
+   -0.284
+  ]
+ ],
+ "headlight_unity": [
+  0.002,
+  1.1,
+  0.75
+ ],
+ "WheelFront": {
+  "center_m": [
+   0.0001,
+   -1.4208,
+   0.3292
+  ],
+  "radius_m": 0.3292
+ },
+ "WheelRear": {
+  "center_m": [
+   0.0001,
+   1.1173,
+   0.336
+  ],
+  "radius_m": 0.3359
+ },
+ "material_slots": {
+  "Body": [
+   "metal",
+   "metal3",
+   "Seat",
+   "Bones",
+   "Chains"
+  ],
+  "WheelFront": [
+   "Tire",
+   "TireStuff2",
+   "Spikes",
+   "TirePlate",
+   "metal2"
+  ],
+  "WheelRear": [
+   "Tire",
+   "TireStuffidk",
+   "TirePlate",
+   "metal2"
+  ],
+  "Steer": [
+   "Skull",
+   "Chains"
+  ]
+ },
+ "materials": {
+  "Bones": {
+   "base": "Bones_base.png",
+   "normal": "Bones_normal.png",
+   "mr": "Bones_mr.png"
+  },
+  "Chains": {
+   "base": "Chains_base.png",
+   "normal": "Chains_normal.png",
+   "mr": "Chains_mr.png"
+  },
+  "metal": {
+   "base": "metal_base.png",
+   "normal": "metal_normal.png",
+   "mr": "metal_mr.png"
+  },
+  "metal2": {
+   "base": "metal2_base.png",
+   "normal": "metal2_normal.png",
+   "mr": "metal2_mr.png"
+  },
+  "metal3": {
+   "base": "metal3_base.png",
+   "normal": "metal3_normal.png",
+   "mr": "metal3_mr.png"
+  },
+  "Seat": {
+   "base": "Seat_base.png",
+   "normal": "Seat_normal.png",
+   "mr": "Seat_mr.png"
+  },
+  "Skull": {
+   "base": "Skull_base.png",
+   "normal": "Skull_normal.png",
+   "mr": "Skull_mr.png"
+  },
+  "Spikes": {
+   "base": "Spikes_base.png",
+   "normal": "Spikes_normal.png",
+   "mr": "Spikes_mr.png"
+  },
+  "Tire": {
+   "base": "Tire_base.png",
+   "normal": "Tire_normal.png",
+   "mr": "Tire_mr.png"
+  },
+  "TirePlate": {
+   "base": "TirePlate_base.png",
+   "normal": "TirePlate_normal.png",
+   "mr": "TirePlate_mr.png"
+  },
+  "TireStuff2": {
+   "base": "TireStuff2_base.png",
+   "normal": "TireStuff2_normal.png",
+   "mr": "TireStuff2_mr.png"
+  },
+  "TireStuffidk": {
+   "base": "TireStuffidk_base.png",
+   "normal": "TireStuffidk_normal.png",
+   "mr": "TireStuffidk_mr.png"
+  }
+ },
+ "palette": false,
+ "source": "assets/models/hel/source.glb",
+ "licence": "Sketchfab, TheBattyCatty, CC Attribution",
+ "steer_axis": [
+  [
+   0.0001,
+   0.3292,
+   1.4208
+  ],
+  [
+   0.0,
+   1.2,
+   0.65
+  ]
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "key": "saddlebag",
+ "prefab_name": "Saddlebag",
+ "source": "assets/new_models/medieval_leather_waist_bag_free.glb",
+ "width_axis": "x",
+ "front": "-y",
+ "up": "z",
+ "width_m": 0.38,
+ "material_names": {
+  "Scene_-_Root": "leather"
+ },
+ "licence": "Sketchfab, Red_Ilya, CC Attribution 4.0 (Medieval Leather Waist Bag Free)",
+ "palette": "leather"
+}

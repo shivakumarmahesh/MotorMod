@@ -1,0 +1,28 @@
+{
+ "key": "hel",
+ "prefab_name": "HellCycle",
+ "source": "assets/models/hel/source.glb",
+ "target_length": 3.5,
+ "front": "-x",
+ "wheels": "tyre_material:Tire",
+ "seat": "named:Seat",
+ "grips": "auto",
+ "headlight": [
+  0.0,
+  1.1,
+  0.75
+ ],
+ "palette": false,
+ "licence": "Sketchfab, TheBattyCatty, CC Attribution",
+ "steer": {
+  "top": [
+   0.0,
+   1.2,
+   0.65
+  ],
+  "include": "\\|Skull(\\||$)",
+  "split": "\\|Chains(\\||$)",
+  "split_margin": 0.15,
+  "margin": 0.0
+ }
+}

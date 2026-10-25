@@ -1,0 +1,31 @@
+{
+  "format": "mono wav 44100 Hz 16-bit, loudness-balanced (see levels.json)",
+  "base_set": "fatboy (not a bike; its ride clips are everyone's cruise base)",
+  "bikes": {
+    "hel": {
+      "label": "Hel Cycle",
+      "era": "Shovelhead (own start file)",
+      "speed": 0.8,
+      "startup": "hel/startup_short.wav",
+      "startup_full": "hel/startup_full.wav",
+      "idle_loop": "hel/idle_loop.wav",
+      "rev_blip": "hel/rev_blips.wav",
+      "accel": "hel/accel.wav",
+      "cruise_loops": [
+        "hel/cruise_high.wav",
+        "hel/cruise_fast.wav"
+      ],
+      "shutoff": "hel/shutoff.wav",
+      "crossfade_seconds": {
+        "startup_to_idle": 0.4,
+        "idle_to_cruise": 0.6,
+        "cruise_to_idle": 0.8
+      },
+      "pitch": {
+        "idle": 1.0,
+        "cruise_min": 0.95,
+        "cruise_max": 1.35
+      }
+    }
+  }
+}
